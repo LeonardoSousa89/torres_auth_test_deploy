@@ -18,7 +18,7 @@ function validar() {
              
     
                             if(usuario == user && senha == password) {
-                               document.location.href = '../adm/adm.html'
+                               document.location.href = 'https://adm-auth-test.netlify.app/'
                             }else{
                                erro.style.display = 'flex'
                             }
